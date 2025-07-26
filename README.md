@@ -1,0 +1,2 @@
+# PowerPlatform-PowerApps-PowerAutomate-HolidayMaster
+Power Automate で実装した祝日マスタ更新バッチと Power Apps キャンバスアプリで実装したカレンダーアプリ
