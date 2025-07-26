@@ -1,0 +1,101 @@
+{
+  "help": "https://data.e-gov.go.jp/data/api/3/action/help_show?name=package_show",
+  "success": true,
+  "result": {
+    "author": "大臣官房総務課",
+    "author_email": null,
+    "contactPoint": "大臣官房総務課",
+    "creator_user_id": "976f266d-15ff-4f84-b381-fe98d3d6621a",
+    "frequency_of_update": "1nen ",
+    "id": "95eac548-e03d-4800-9d02-82e5baa06b2b",
+    "isopen": false,
+    "landingPage": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+    "license_id": null,
+    "license_title": null,
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2019-06-10T01:54:04.060902",
+    "metadata_modified": "2022-08-17T02:14:55.463035",
+    "name": "cao_20190522_0002",
+    "notes": "昭和30年（1955年）から令和2年（2020年）国民の祝日等（いわゆる振替休日等を含む）",
+    "num_resources": 1,
+    "num_tags": 0,
+    "organization": {
+      "id": "bd3532a9-f470-4bba-9259-2b39d807da26",
+      "name": "org_0400",
+      "title": "内閣府",
+      "type": "organization",
+      "description": "Cabinet Office",
+      "image_url": "https://data.e-gov.go.jp/data/uploads/group/04_内閣府.gif",
+      "created": "2014-09-18T19:04:58.256828",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "bd3532a9-f470-4bba-9259-2b39d807da26",
+    "private": false,
+    "publisher": "内閣府",
+    "spatial": "",
+    "state": "active",
+    "title": "「国民の祝日」について",
+    "type": "dataset",
+    "url": null,
+    "version": null,
+    "extras": [
+      {
+        "key": "creator",
+        "value": "大臣官房総務課"
+      },
+      {
+        "key": "description",
+        "value": "昭和30年（1955年）から令和2年（2020年）国民の祝日等（いわゆる振替休日等を含む）"
+      },
+      {
+        "key": "release_date_legacy",
+        "value": "2019-04"
+      }
+    ],
+    "groups": [
+      {
+        "description": "他のグループに含めることができないデータのグループです。",
+        "display_name": "その他",
+        "id": "7e9f3ecc-634d-4c48-85d2-6c54373c1883",
+        "image_display_url": "https://www.data.go.jp/img/download_file/group_img/gr_1700.png",
+        "name": "gr_1700",
+        "title": "その他"
+      }
+    ],
+    "resources": [
+      {
+        "cache_last_updated": null,
+        "cache_url": null,
+        "copyright": "",
+        "created": "2019-06-10T10:54:04.094557",
+        "datastore_active": false,
+        "datastore_contains_all_records_of_source_file": false,
+        "description": "昭和30年（1955年）から令和2年（2020年）国民の祝日等（いわゆる振替休日等を含む）",
+        "format": "CSV",
+        "hash": "",
+        "id": "d9ad35a5-6c9c-4127-bdbe-aa138fdffe42",
+        "language": "jpn",
+        "last_modified": null,
+        "last_modified_date": "2019-04",
+        "license_id": "cc-by",
+        "metadata_modified": null,
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "昭和30年（1955年）から令和2年（2020年）国民の祝日等（いわゆる振替休日等を含む）（csv形式：19KB）",
+        "package_id": "95eac548-e03d-4800-9d02-82e5baa06b2b",
+        "position": 0,
+        "resource_type": null,
+        "size": 19000,
+        "state": "active",
+        "url": "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv",
+        "url_type": null
+      }
+    ],
+    "tags": [],
+    "relationships_as_subject": [],
+    "relationships_as_object": []
+  }
+}

@@ -1,0 +1,59 @@
+swagger: '2.0'
+info:
+  title: Default title
+  description: 文字コードをShift_JISからUTF-8に変換するためのカスタムコネクタ
+  version: '1.0'
+host: api.contoso.com
+basePath: /
+schemes:
+  - https
+consumes: []
+produces: []
+paths:
+  /:
+    post:
+      responses:
+        default:
+          description: default
+          schema:
+            type: object
+            properties:
+              text:
+                type: string
+                description: text
+      summary: Convert
+      description: Convert
+      operationId: Convert
+      x-ms-visibility: important
+      parameters:
+        - name: body
+          in: body
+          required: true
+          schema:
+            type: object
+            properties:
+              text:
+                type: string
+                description: text
+                title: text
+                x-ms-visibility: important
+              encodingInput:
+                type: string
+                description: encodingInput
+                title: encodingInput
+                default: Shift_JIS
+              encodingOutput:
+                type: string
+                description: encodingOutput
+                title: encodingOutput
+                default: UTF-8
+            x-ms-visibility: important
+            required:
+              - text
+          x-ms-visibility: important
+definitions: {}
+parameters: {}
+responses: {}
+securityDefinitions: {}
+security: []
+tags: []
